@@ -160,19 +160,22 @@ form{
     display: grid;
     padding-right: 40px;
 }
+::placeholder{
+    color: rgb(190, 190, 190);
+}
 input{
     font-style: italic;
     height: 40px;
     margin-bottom: 35px;
     border-radius: 7px;
-    border: 1.5px solid rgb(180,180,180);
+    border: 1.5px solid rgb(190, 190, 190);
     background-color: rgb(255, 255, 255);
 }
 input:hover{
     height: 40px;
     margin-bottom: 35px;
     border-radius: 7px;
-    border: 1.5px solid rgb(180,180,180);
+    border: 1.5px solid rgb(190, 190, 190);
     background-color: rgb(240,240,240);
 }
 
@@ -181,18 +184,20 @@ input:hover{
     font-style: italic;
 }
 textarea{
+    resize: none;
     font-style: italic;
     height: 140px;
     margin-bottom: 35px;
     border-radius: 7px;
-    border: 1.5px solid rgb(180,180,180);
+    border: 1.5px solid rgb(190, 190, 190);
     background-color: rgb(255, 255, 255);
 }
 textarea:hover{
+    resize: none;
     height: 140px;
     margin-bottom: 35px;
     border-radius: 7px;
-    border: 1.5px solid rgb(180,180,180);
+    border: 1.5px solid rgb(233, 233, 233);
     background-color: rgb(240,240,240);
 }
 .paral{
@@ -214,7 +219,8 @@ font-size: 30px;
 .footer{
 background-color: #404040;
 padding-top: 20px;
-padding-bottom: 10px;
+padding-bottom: 15px;
+margin: 0px auto 0px auto;
 display: flex;
 justify-content: space-evenly;
 color: rgb(185, 185, 185);
@@ -231,6 +237,7 @@ li{
     font-size: 15px;
 }
 #btn4{
+    
     font-weight: bold;
     font-size: 14px;
     margin-top:20px ;
@@ -242,6 +249,7 @@ li{
     border: 3px solid #02202f
 }
 #btn4:hover{
+    
     font-weight: bold;
     font-size: 14px;
     margin-top:20px ;
@@ -260,7 +268,6 @@ li{
     color: rgb(185, 185, 185);
     padding-left: 100px;
 }
-
 span{
     color: #f38e59;
 }
