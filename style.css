@@ -1,0 +1,272 @@
+body{
+
+    margin: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #f38e59;
+}
+.stickybar{
+    padding-top: 0.8rem;
+    padding-left: 1.8rem;
+    padding-right: 2.1rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    background-color: #f38e59;
+    position: fixed;
+    margin-top: -80px;
+    width: 100%;
+    
+}
+#logo{
+}
+.list ul{
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style: none;
+    display: -webkit-inline-flex;
+}
+
+.buttons{
+   color: white;
+   
+    
+}
+.top1,a{
+    margin-left: 1.25rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+header{
+    background-color: #f38e59;
+    text-align: center;
+}
+p{
+    color: #333;
+    
+   
+}
+#Contact{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: bold;
+}
+#main1{
+    width: 100%px;
+    height:220px ;
+    margin: 5rem;
+    margin-top: rem;
+    padding-top: 100px;
+}
+
+.buttons{
+    margin-left: 10px;
+}
+
+#buttons1{
+font-weight: bold;
+height: 46px;
+width: 190px;
+margin-left: 200px;
+background-color: #02202f;
+color: white;
+border-radius: 7px;
+border: 3px solid #02202f;
+}
+#buttons1:hover{
+    height: 48px;
+    width: 190px;
+    margin-left: 200px;
+    background-color: #05345b;
+    ;
+    border: azure;
+    }
+
+
+#buttons2{
+    font-weight: bold;
+    color: white;
+    height: 46px;
+    width: 120px;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#buttons2:hover{
+    height: 48px;
+    width: 120px;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.150);
+}
+.buttons3{
+    background-color: #f38e59;
+    margin-left: 387.5px;
+    margin-top: 10px;
+    height: 60px;
+    width: 160px;
+    border-radius: 7px;
+    border: 3px solid #f38e59;
+    color: white;
+    font-weight: bold;
+}
+.buttons3:hover{
+    background-color: #ce794c;
+    margin-left: 387px;
+    margin-top: 10px;
+    height: 60px;
+    width: 160px;
+    border-radius: 7px;
+    border: 3px solid #ce794c;
+    color: white;
+    font-weight: bold;
+}
+.divleft, .divright{
+height: 10vh;
+font-size: 20px;
+
+
+}
+ .divright{
+
+ padding-bottom: 0px;
+
+}
+.divleft{
+    
+ 
+
+}
+.col{
+    padding-left: 40px;
+}
+
+.row{   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    /* padding-left: 40px; */
+    margin-bottom: 100px;
+}
+h2{
+    color: #5BB5DE;
+}
+#lp, #rp{
+    padding-right: 10%;
+    font-size: 19px;
+    font-weight: 100;
+}
+form{
+    display: grid;
+    padding-right: 40px;
+}
+input{
+    font-style: italic;
+    height: 40px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    border: 1.5px solid rgb(180,180,180);
+    background-color: rgb(255, 255, 255);
+}
+input:hover{
+    height: 40px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    border: 1.5px solid rgb(180,180,180);
+    background-color: rgb(240,240,240);
+}
+
+.input{
+    margin-top: 100px;
+    font-style: italic;
+}
+textarea{
+    font-style: italic;
+    height: 140px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    border: 1.5px solid rgb(180,180,180);
+    background-color: rgb(255, 255, 255);
+}
+textarea:hover{
+    height: 140px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    border: 1.5px solid rgb(180,180,180);
+    background-color: rgb(240,240,240);
+}
+.paral{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#right-contant{   
+    margin-top: 80px;
+}
+.Others{
+font-size: 30px;
+}
+
+.para2{
+    margin-left: 20px;
+}
+.footer{
+background-color: #404040;
+padding-top: 20px;
+padding-bottom: 10px;
+display: flex;
+justify-content: space-evenly;
+color: rgb(185, 185, 185);
+}
+.footer-content{
+
+}
+.fct{
+    font-weight: bold;
+    color: rgb(243, 243, 243);
+}
+li{
+    list-style: none;
+    font-size: 15px;
+}
+#btn4{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top:20px ;
+    height: 60px;
+    width: 180px;
+    background-color: #02202f;
+    color: white;
+    border-radius: 7px;
+    border: 3px solid #02202f
+}
+#btn4:hover{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top:20px ;
+    height: 60px;
+    width: 180px;
+    background-color: #05345b;
+    color: white;
+    border-radius: 7px;
+    border: 3px solid #05345b;
+}
+.buttom-footer{
+    background-color: #333333;
+    font-size: 14px;
+    height: 30px;
+    padding-top: 12px;
+    color: rgb(185, 185, 185);
+    padding-left: 100px;
+}
+
+span{
+    color: #f38e59;
+}
+span:hover{
+    color: #ce794c;
+}
+.links{
+    color: #f38e59;
+}
